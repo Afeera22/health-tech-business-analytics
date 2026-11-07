@@ -1,0 +1,28 @@
+table_name,column_name,description
+customers,customer_id,Unique synthetic customer identifier
+customers,signup_date,Customer signup date
+customers,city,Customer city
+customers,acquisition_channel,Customer acquisition channel
+customers,age_band,Customer age range
+customers,marketing_consent,Marketing consent flag
+leads,lead_id,Unique lead record identifier
+leads,customer_id,Customer associated with the lead
+leads,lead_date,Lead creation date
+leads,source,Lead source
+leads,funnel_stage,Current lead funnel stage
+leads,campaign,Marketing campaign
+orders,order_id,Unique order identifier
+orders,customer_id,Customer associated with the order
+orders,order_date,Order date
+orders,plan_type,Purchased plan
+orders,gross_amount_inr,Gross order amount in INR
+orders,discount_inr,Discount amount in INR
+orders,order_status,Order payment/status
+orders,payment_method,Payment method
+consultations,consultation_id,Unique consultation identifier
+consultations,customer_id,Customer associated with consultation
+consultations,booking_date,Consultation booking date
+consultations,completion_date,Completion date; blank if not completed
+consultations,consultation_status,Consultation status
+consultations,consultation_type,Consultation category
+consultations,assigned_team,Operations team
